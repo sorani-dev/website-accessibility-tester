@@ -1,0 +1,27 @@
+{
+  "name": "website-accessibility-tester",
+  "version": "1.0.0",
+  "description": "Web app with Node.js & Pa11y to find website accessibility issues",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "javascript",
+    "accessibility",
+    "tester",
+    "a11y",
+    "Pa11y",
+    "Node.js"
+  ],
+  "author": "Simon Cateau",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pa11y": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
